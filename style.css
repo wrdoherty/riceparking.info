@@ -1702,10 +1702,14 @@ div.tree-child-horizontal {
     visibility: visible;
 }
 
-.tx-tooltip .tx-tooltip {
+tx-tooltip .tx-tooltip {
     border: none;
 }
 
-.tx-tooltip:hover .tx-tooltip-text .tx-tooltip .tx-tooltip-text,.tx-tooltip:focus .tx-tooltip-text .tx-tooltip .tx-tooltip-text {
+tx-tooltip:hover .tx-tooltip-text .tx-tooltip .tx-tooltip-text,.tx-tooltip:focus .tx-tooltip-text .tx-tooltip .tx-tooltip-text {
     visibility: hidden;
+}
+
+p {
+  color: red;
 }
